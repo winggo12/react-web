@@ -12,6 +12,11 @@ function BusinessCard(props) {
                         {/* Profile Pi */}
                         <div className="card-profile">
                             <img src={props.src}  alt="Profile Pic" />
+                            <p className="personal-background-in-foto" style={{fontSize:'70%', marginBottom:'5px'}}>
+                                I have been working on developing Computer vision and AI-related Software Development for 
+                                two years, including employing pose estimation AI model on PC and Mobile Device using C++ and Swift. In the previous year, I have involved 
+                                in Website Backend API Development and Server Employment using Laravel Php Framework and Docker Compose. 
+                            </p>
                         </div>
 
                         {/* <div className="col-sm-1 card-profile-color"></div> */}
@@ -60,7 +65,7 @@ function BusinessCard(props) {
                                 
                                 <div className="info-header-content-setting">
                                     <div className="info-header mt-4">
-                                        <button className="btn btn-success">On Vacation</button>
+                                        <button className="status-btn btn-success">Studying in PolyU</button>
                                     </div>
                                     <div className="col-sm-2 card-description-color"></div>
                                     <div className="info-content mt-4">

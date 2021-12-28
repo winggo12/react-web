@@ -11,9 +11,6 @@ function HeroSection() {
     <div className='hero-container'>
       {/* Uncomment for video background */}
       {/* <video src='./videos/video-1.mp4' autoPlay loop muted /> */}
-      <h1> Personal Profile <br/> 
-           {/* Software Development and Machine Learning */}
-      </h1>
       {/* <p>Experience in Developing Machine Learning </p> */}
       <BusinessCard
         src='images/img-personal.png'

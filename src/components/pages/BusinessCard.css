@@ -49,7 +49,7 @@
     max-width: 350px;
     max-height:455px;
     width: 100%;
-    height: 100%;
+    height: auto;
 
     /* width: 100%;
     height: 100%; */
@@ -60,6 +60,7 @@
 .card-wrapper{
     /* justify-content: space-between; */
     width: 75%;
+    height: 70%;
     position: absolute;
     top: 15%;
     left: 12.5%;
@@ -131,18 +132,29 @@
     overflow: scroll;
 }
 
+.personal-background-in-foto{
+    display: none;
+}
+
 .row{
+    background-color:rgb(11, 3, 80);
     width: 100%;
     display: flex;
     flex-flow: row;
     margin: 0;
 }
 
-@media screen and (max-width: 968px) {
+.status-btn{
+    padding: 8px 20px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+}
 
+@media screen and (max-width: 968px) {
     .card-wrapper{
-        
         width: 90%;
+        height: 60%;
         position: absolute;
         top: 15%;
         left: 5%;
@@ -154,13 +166,22 @@
         flex-flow: column;
         background-color: white;
         width: 50%;
-        height: 40%;
+        height: 100%;
     }
 
     .card-profile{
         background: rgb(11, 3, 80);
         width: 50%;
-        height: 40%;
+        height: 100%;
+    }
+
+    .card-profile img{
+        max-width: 350px;
+        max-height:455px;
+        width: 100%;
+        height: 80%;
+        padding: 20px 20px 20px 20px;
+        
     }
 
     .content{
@@ -181,12 +202,54 @@
         display: none;
     }
 
+    .personal-background-in-foto{
+        display: flex;
+        width: 100%;
+        height: 20%;
+        color: white;
+        overflow: scroll;
+    }
+
     .row{
         width: 100%;
-        height:50%;
+        height:100%;
         display: flex;
         flex-flow: row;
         margin: 0;
+    }
+
+    .status-btn{
+        width: 60%;
+        padding: 8px 20px;
+        border-radius: 2px;
+        outline: none;
+        border: none;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+
+    .card-profile img{
+        max-width: 350px;
+        max-height:455px;
+        width: 100%;
+        height: 60%;
+        padding: 10px 10px 10px 10px;   
+    }
+    .personal-background-in-foto{
+        display: flex;
+        width: 100%;
+        height: 40%;
+        color: white;
+        overflow: scroll;
+    }
+
+    .status-btn{
+        padding: 8px 20px;
+        border-radius: 2px;
+        outline: none;
+        border: none;
     }
 
 }

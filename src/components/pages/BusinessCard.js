@@ -25,7 +25,7 @@ function BusinessCard(props) {
                         <div className="card-description">
                             
                             <div className="header">
-                                <button className="btn">
+                                <button className="hello-btn">
                                     <span> HELLO </span>
                                     <span className="green-dot">
                                     {/* <span className="visually-hidden">New alerts</span> */}

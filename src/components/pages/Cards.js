@@ -6,14 +6,17 @@ import './Cards.css'
 function Cards() {
     return (
 			<div className='cards'>
-				<h1>Check out these places</h1>
+				<h1>Project Experience</h1>
 				<div className='cards__container'>
 					<div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
+              // src='images/img-9.jpg'
+              utubelink = "https://www.youtube.com/embed/f2zKddqyqEA?modestbranding=1&autohide=1&showinfo=0"
+              text='Implementation of Multiple Person Pose Estimation in C++ / Libtorch'
+              description="Software for human key points prediction and detection using C++ Pytorch (Libtorch) 
+                            and a Resnet-backbone model for a Drown Detection System."
+              label='C++'
               path='/services'
             />
             <CardItem

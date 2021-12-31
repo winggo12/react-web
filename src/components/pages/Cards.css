@@ -6,6 +6,10 @@
   h1 {
     text-align: center;
   }
+
+  h3{
+    text-align: center;
+  }
   
   .cards__container {
     display: flex;
@@ -32,6 +36,11 @@
     border-radius: 10px;
   }
   
+  .cards__item:hover .cards__item__img__description{
+    visibility: hidden;
+    opacity: 0;
+  } 
+
   .cards__item__link {
     display: flex;
     flex-flow: column;
@@ -46,6 +55,7 @@
   
   .cards__item__pic-wrap {
     position: relative;
+    height: 80%;
     width: 100%;
     padding-top: 67%;
     overflow: hidden;
@@ -91,9 +101,12 @@
   }
 
   .cards__item__img__description {
+    font-size: 18px;
+    line-height: 26px;
+    padding: 20px 30px 30px;
     position: absolute;
-    top: 0;
-    bottom: 0;
+    top: 50%;
+    bottom: 10%;
     left: 0;
     right: 0;
     padding: 20px 20px 20px 20px;
@@ -101,14 +114,14 @@
     color: #fff;
     /* visibility: visible; */
     visibility: visible;
-    opacity: 1;
+    opacity: 0.9;
     z-index: 99;
   }
   
-  .cards__item__img__description:hover {
+  /* .cards__item__img__description:hover {
     visibility: hidden;
     opacity: 0;
-  } 
+  }  */
   
   /* .cards__item__img:hover {
     transform: scale(1.02);
@@ -117,6 +130,7 @@
   .cards__item__info {
     display: flex;
     flex-direction: row;
+    height: 20%;
     /* padding: 20px 30px 30px; */
   }
 

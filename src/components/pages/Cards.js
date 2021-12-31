@@ -7,22 +7,24 @@ function Cards() {
     return (
 			<div className='cards'>
 				<h1>Project Experience</h1>
+        <h3>Machine Learning Software Development</h3>
 				<div className='cards__container'>
 					<div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
               // src='images/img-9.jpg'
               utubelink = "https://www.youtube.com/embed/f2zKddqyqEA?modestbranding=1&autohide=1&showinfo=0"
-              text='Implementation of Multiple Person Pose Estimation in C++ / Libtorch'
+              text='Implementation of Multiple Person Pose Estimation with C++ / Libtorch'
               description="Software for human key points prediction and detection using C++ Pytorch (Libtorch) 
                             and a Resnet-backbone model for a Drown Detection System."
               label='C++'
               path='/services'
             />
             <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
+              utubelink= "https://www.youtube.com/embed/O55QJmupgOU?modestbranding=1&autohide=1&showinfo=0"
+              text='Single Pose Estimation on IOS Device with Swift / Tf-Lite'
+              description='IOS framework for 2D Human Pose Estimation using TensorFlow Mobile and a Mobilenetv2-backbone model'
+              label='Swift / Tensorflow'
               path='/services'
             />
           </ul>

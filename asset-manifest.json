@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/react-web/static/css/main.841e01ea.chunk.css",
-    "main.js": "/react-web/static/js/main.dd648d79.chunk.js",
-    "main.js.map": "/react-web/static/js/main.dd648d79.chunk.js.map",
-    "runtime-main.js": "/react-web/static/js/runtime-main.292841cc.js",
-    "runtime-main.js.map": "/react-web/static/js/runtime-main.292841cc.js.map",
-    "static/js/2.92c5be0a.chunk.js": "/react-web/static/js/2.92c5be0a.chunk.js",
-    "static/js/2.92c5be0a.chunk.js.map": "/react-web/static/js/2.92c5be0a.chunk.js.map",
-    "static/js/3.7f82697f.chunk.js": "/react-web/static/js/3.7f82697f.chunk.js",
-    "static/js/3.7f82697f.chunk.js.map": "/react-web/static/js/3.7f82697f.chunk.js.map",
-    "index.html": "/react-web/index.html",
-    "static/css/main.841e01ea.chunk.css.map": "/react-web/static/css/main.841e01ea.chunk.css.map",
-    "static/js/2.92c5be0a.chunk.js.LICENSE.txt": "/react-web/static/js/2.92c5be0a.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/react-web/static/media/img-8.fabdf94d.jpg",
-    "static/media/HeroSection.css": "/react-web/static/media/img-home.c034239e.jpg"
+    "main.css": "/static/css/main.8f973133.chunk.css",
+    "main.js": "/static/js/main.dd648d79.chunk.js",
+    "main.js.map": "/static/js/main.dd648d79.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6a2c9878.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6a2c9878.js.map",
+    "static/js/2.92c5be0a.chunk.js": "/static/js/2.92c5be0a.chunk.js",
+    "static/js/2.92c5be0a.chunk.js.map": "/static/js/2.92c5be0a.chunk.js.map",
+    "static/js/3.7f82697f.chunk.js": "/static/js/3.7f82697f.chunk.js",
+    "static/js/3.7f82697f.chunk.js.map": "/static/js/3.7f82697f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.8f973133.chunk.css.map": "/static/css/main.8f973133.chunk.css.map",
+    "static/js/2.92c5be0a.chunk.js.LICENSE.txt": "/static/js/2.92c5be0a.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/img-8.fabdf94d.jpg",
+    "static/media/HeroSection.css": "/static/media/img-home.c034239e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.292841cc.js",
+    "static/js/runtime-main.6a2c9878.js",
     "static/js/2.92c5be0a.chunk.js",
-    "static/css/main.841e01ea.chunk.css",
+    "static/css/main.8f973133.chunk.css",
     "static/js/main.dd648d79.chunk.js"
   ]
 }

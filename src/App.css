@@ -18,8 +18,14 @@
   font-size: 3rem;
 }
 
+.github-stat{
+  flex-direction: column;
+}
+
 .github-stat-file{
   width: 100%;
+  height: 100%;
+  margin-left: 8%;
 }
 
 .services {
@@ -36,6 +42,7 @@
 
 .personal-cv-file {
   width: 100%;
+  
 }
 
 .products {

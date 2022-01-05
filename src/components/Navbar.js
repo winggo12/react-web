@@ -63,11 +63,11 @@ function Navbar() {
 
             <li className='nav-item'>
               <Link
-                to='/products'
+                to='/github-stat'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Products
+                Github Statistics
               </Link>
             </li>
 

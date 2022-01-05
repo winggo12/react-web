@@ -8,12 +8,18 @@
 .home,
 .services,
 .products,
-.sign-up {
+.sign-up,
+.personal-cv-file,
+.github-stat {
   display: flex;
   height: 90vh;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
+}
+
+.github-stat-file{
+  width: 100%;
 }
 
 .services {
@@ -23,6 +29,13 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+
+.personal-cv {
+}
+
+.personal-cv-file {
+  width: 100%;
 }
 
 .products {

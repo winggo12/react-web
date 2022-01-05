@@ -82,7 +82,7 @@ function BusinessCard(props) {
                     
                     <div className="footer_wrapper">
                         <div className="footer">
-                            <Link className="icon-wrapper social-icon-link facebook" 
+                            {/* <Link className="icon-wrapper social-icon-link facebook" 
                             to="/"
                             target="_blank"
                             aria-label="Facebook"
@@ -90,37 +90,38 @@ function BusinessCard(props) {
                                 <i className="fab fa-facebook-f">
 
                                 </i>
-                            </Link>
+                            </Link> */}
 
-                            <Link
+                            {/* <Link
                             className='icon-wrapper social-icon-link instagram'
                             to='/'
                             target='_blank'
                             aria-label='Instagram'
                             >
                             <i className='fab fa-instagram' />
-                            </Link>
+                            </Link> */}
 
                             <Link
                             className='icon-wrapper social-icon-link youtube'
                             to='/'
                             target='_blank'
                             aria-label='Youtube'
+                            to={{pathname: 'https://www.youtube.com/channel/UC8HpnGA5wV22TSLeotulMcg' }}
                             >
                             <i className='fab fa-youtube' />
                             </Link>
 
                             <Link
-                            className='icon-wrapper social-icon-link twitter'
+                            className='icon-wrapper social-icon-link github'
                             to='/'
                             target='_blank'
-                            aria-label='Twitter'
+                            aria-label='Github'
                             >
-                            <i className='fab fa-twitter' />
+                            <i className='fab fa-github' />
                             </Link>
 
                             <Link
-                            className='icon-wrapper social-icon-link twitter'
+                            className='icon-wrapper social-icon-link linkedin'
                             to='/'
                             target='_blank'
                             aria-label='LinkedIn'

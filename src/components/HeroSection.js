@@ -13,8 +13,7 @@ function HeroSection() {
       {/* <video src='./videos/video-1.mp4' autoPlay loop muted /> */}
       {/* <p>Experience in Developing Machine Learning </p> */}
       <BusinessCard
-        src='images/img-personal.png'
-        text='Explore the hidden waterfall deep inside the Amazon Jungle'
+        src='images/img-personal2.jpg'
         label='Adventure'
         path='/services'
       />

@@ -39,6 +39,7 @@
   .cards__item:hover .cards__item__img__description{
     visibility: hidden;
     opacity: 0;
+    transition: visibility 0s 0.5s, opacity 0.5s linear;
   } 
 
   .cards__item__link {
@@ -83,6 +84,7 @@
     /* max-width: calc((100%) - 60px); */
     padding: 6px 8px;
     position: absolute;
+    text-align: center;
   }
   
   .cards__item__img {
@@ -114,7 +116,9 @@
     color: #fff;
     /* visibility: visible; */
     visibility: visible;
-    opacity: 0.9;
+    transition: opacity 0.5s linear;
+    opacity: 1;
+    overflow: scroll;
     z-index: 99;
   }
   

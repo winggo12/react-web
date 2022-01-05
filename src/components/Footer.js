@@ -74,7 +74,7 @@ function Footer() {
                         Luis Chan © 2021
                     </small>
                     <div className="social-icons">
-                        <Link className="social-icon-link facebook" 
+                        {/* <Link className="social-icon-link facebook" 
                         to="/"
                         target="_blank"
                         aria-label="Facebook"
@@ -82,34 +82,34 @@ function Footer() {
                             <i className="fab fa-facebook-f">
 
                             </i>
-                        </Link>
+                        </Link> */}
 
-                        <Link
+                        {/* <Link
                         class='social-icon-link instagram'
                         to='/'
                         target='_blank'
                         aria-label='Instagram'
                         >
                         <i class='fab fa-instagram' />
-                        </Link>
+                        </Link> */}
                         <Link
                         class='social-icon-link youtube'
-                        to='/'
+                        to={{pathname: 'https://www.youtube.com/channel/UC8HpnGA5wV22TSLeotulMcg' }}
                         target='_blank'
                         aria-label='Youtube'
                         >
                         <i class='fab fa-youtube' />
                         </Link>
                         <Link
-                        class='social-icon-link twitter'
+                        class='social-icon-link github'
                         to='/'
                         target='_blank'
-                        aria-label='Twitter'
+                        aria-label='Github'
                         >
-                        <i class='fab fa-twitter' />
+                        <i class='fab fa-github' />
                         </Link>
                         <Link
-                        class='social-icon-link twitter'
+                        class='social-icon-link linkedin'
                         to='/'
                         target='_blank'
                         aria-label='LinkedIn'

@@ -12,11 +12,17 @@ function CardItem(props) {
                     <div className="cards__item__info">
                         <div className='cards__item__icon'>
                             <Link
-                                to='/'
+                                to={{pathname: props.path }}
                                 target='_blank'
                                 aria-label='Github'
                                 >
-                                <i className='fab fa-github' />
+                                {/* <i className='fab fa-github' />
+                                {console.log(props.icon == 'github')} */}
+                                {(() => {
+                                if(props.icon == 'github'){return <i className='fab fa-github'/>}
+                                if(props.icon == 'researchgate'){return <i className='fab fa-researchgate'/>}
+                                return null;
+                                })()}   
                             </Link>
                         </div>
                             {/* for h5, use "h5.cards__item__text" */}
@@ -41,7 +47,6 @@ function CardItem(props) {
                         }
 
                         if (props.src){
-                            
                             return (
                             <img 
                             className="cards__item__img" 

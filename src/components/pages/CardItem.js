@@ -37,11 +37,12 @@ function CardItem(props) {
                             return (
                                 <iframe 
                                 className= "cards__item__img" 
-                                width="560" height="315" 
                                 src={props.utubelink} 
                                 title="YouTube video player" frameborder="0" 
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
-                                gyroscope; picture-in-picture" allowfullscreen 
+                                allow="accelerometer; autoplay; clipboard-write; 
+                                       encrypted-media; gyroscope; picture-in-picture; 
+                                       fullscreen" 
+                                
                                 />
                             )
                         }
@@ -51,7 +52,7 @@ function CardItem(props) {
                             <img 
                             className="cards__item__img" 
                             src={props.src} 
-                            alt="Travel Image" 
+                            alt="Image" 
                             />
                             )
                         }

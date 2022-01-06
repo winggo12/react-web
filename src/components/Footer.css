@@ -104,6 +104,15 @@
 
 }
 
+.input-areas{
+    height: 30%;
+    width:80%;
+}
+
+.btn{
+    display: unset;
+}
+
 /* Social Icons */
 .social-icon-link{
     color: #fff;
@@ -150,6 +159,7 @@
 
     .footer-input{
         width: 100%;
+        height: 100%;
     }
      
     .btn{

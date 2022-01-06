@@ -9,18 +9,19 @@ function Footer() {
         <div className="footer-container">
             <section className="footer-subscription">
                 <p className="footer-subscription-heading">
-                    Join the Adventure Newletter to receive our vaccation
-                    deals
+                    Leave your message along with email here if you have any question
                 </p>
                 <p className="footer-subscription-text">
-                    You can unsubscribe at anytime.
+                    I will reply as soon as possible
                 </p>
 
                 <div className="input-areas">
                     <form>
-                        <input type="email" name="email" placeholder="Your Email"
+                        <input type="email" name="email" placeholder="Your Emails"
                         className="footer-input" />
-                        <Button buttonStyle='btn--outline'>Subscribe</Button>
+                        <input type="email" name="email" placeholder="Questions"
+                        className="footer-input" />
+                        <Button className="send-btn" buttonStyle='btn--outline'>Send</Button>
                     </form>
                 </div>
 
@@ -29,23 +30,22 @@ function Footer() {
             <div class='footer-links'>
                 <div className='footer-link-wrapper'>
                     <div class='footer-link-items'>
-                        <h2>About Us</h2>
-                        <Link to='/sign-up'>How it works</Link>
-                        <Link to='/'>Testimonials</Link>
-                        <Link to='/'>Careers</Link>
-                        <Link to='/'>Investors</Link>
-                        <Link to='/'>Terms of Service</Link>
+                        <h2>Social Media</h2>
+                        <Link to={{pathname: 'https://www.youtube.com/channel/UC8HpnGA5wV22TSLeotulMcg' }}>Youtube</Link>
+                        <Link to={{pathname: 'https://github.com/winggo12' }}>Github</Link>
+                        <Link to={{pathname: 'https://www.linkedin.com/in/louis-chan-58ba74149/' }}>Linkedin</Link>
+
                     </div>
                     <div class='footer-link-items'>
-                        <h2>Contact Us</h2>
-                        <Link to='/'>Contact</Link>
-                        <Link to='/'>Support</Link>
+                        <h2>Contact</h2>
+                        <Link to='/'>wing.987.hk@gmail.com</Link>
+                        {/* <Link to='/'>Support</Link>
                         <Link to='/'>Destinations</Link>
-                        <Link to='/'>Sponsorships</Link>
+                        <Link to='/'>Sponsorships</Link> */}
                     </div>
                 </div>
 
-                <div className='footer-link-wrapper'>
+                {/* <div className='footer-link-wrapper'>
                     <div class='footer-link-items'>
                         <h2>Videos</h2>
                         <Link to='/'>Submit Video</Link>
@@ -60,7 +60,7 @@ function Footer() {
                         <Link to='/'>Youtube</Link>
                         <Link to='/'>Twitter</Link>
                     </div>
-                </div>
+                </div> */}
             </div>
 
             <section className="social-media">

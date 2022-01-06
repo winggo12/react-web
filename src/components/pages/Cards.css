@@ -17,7 +17,7 @@
     align-items: center;
     max-width: 1120px;
     width: 100%;
-    /* margin: 0 auto; */
+    margin: 0 auto;
   }
   
   .cards__wrapper {
@@ -179,6 +179,11 @@
   }
 
   @media screen and (max-width: 640px) {
+
+    .cards__items{
+      padding-left: 0rem;
+    }
+
     .cards__item__img__description{
       font-size: 12px;
       line-height: 20px;

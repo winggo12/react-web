@@ -113,7 +113,7 @@ function BusinessCard(props) {
 
                             <Link
                             className='icon-wrapper social-icon-link github'
-                            to='/'
+                            to={{pathname: 'https://github.com/winggo12' }}
                             target='_blank'
                             aria-label='Github'
                             >
@@ -122,7 +122,7 @@ function BusinessCard(props) {
 
                             <Link
                             className='icon-wrapper social-icon-link linkedin'
-                            to='/'
+                            to={{pathname: 'https://www.linkedin.com/in/louis-chan-58ba74149/' }}
                             target='_blank'
                             aria-label='LinkedIn'
                             >

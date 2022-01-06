@@ -32,7 +32,7 @@ function BusinessCard(props) {
                                     </span>
                                 </button>
 
-                                <p className="m-0">I'm <span style={{weight : "bold", fontSize : "150%"}}>Louis Chan</span></p>
+                                <p className="m-0">I'm <span style={{weight : "bold", fontSize : "150%"}}>Luis Chan</span></p>
                                 <p style={{fontSize:'90%', marginBottom:'5px', fontStyle:'italic'}}>Software Developer / Research Assistant</p>
                                 <p className="personal-background" style={{fontSize:'70%', marginBottom:'5px'}}>
                                 I have been working on developing Computer vision and AI-related Software Development for 
@@ -63,7 +63,7 @@ function BusinessCard(props) {
                                     <div className="info-content">Available</div>       
                                 </div> */}
                                 
-                                <div className="info-header-content-setting">
+                                <div className="info-header-content-setting status-bar">
                                     <div className="info-header mt-4">
                                         <button className="status-btn btn-success">Studying in PolyU</button>
                                     </div>

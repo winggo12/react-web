@@ -1,5 +1,5 @@
 .cards {
-    padding: 4rem;
+    padding-top: 2rem;
     background: #fff;
   }
   
@@ -16,8 +16,8 @@
     flex-flow: column;
     align-items: center;
     max-width: 1120px;
-    width: 90%;
-    margin: 0 auto;
+    width: 100%;
+    /* margin: 0 auto; */
   }
   
   .cards__wrapper {
@@ -176,4 +176,23 @@
     .cards__item {
       margin-bottom: 2rem;
     }
+  }
+
+  @media screen and (max-width: 640px) {
+    .cards__item__img__description{
+      font-size: 12px;
+      line-height: 20px;
+    }
+
+    .cards__item__pic-wrap::after {
+      font-size: 9px;
+      width:35%;
+    }
+
+    .cards__item__text{
+      font-size: 12px;
+      line-height: 20px;
+    }
+
+  
   }

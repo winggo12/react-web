@@ -54,8 +54,8 @@ function BusinessCard(props) {
                                 </div>
 
                                 <div className="info-header-content-setting">
-                                    <div className="info-header">PHONE</div>
-                                    <div className="info-content">65716348</div>
+                                    <div className="info-header">Education</div>
+                                    <div className="info-content">B.Eng(Electrical), Msc(Info. Tech.)</div>
                                 </div>
 
                                 {/* <div className="info-header-content-setting">

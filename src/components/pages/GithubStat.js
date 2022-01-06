@@ -6,7 +6,7 @@ export default function GithubStat() {
         <div className="github-stat">
         {/* <h1> Github Statistics </h1> */}
         <iframe className='github-stat-file'
-            src="https://connectpolyu-my.sharepoint.com/personal/20007633g_connect_polyu_hk/_layouts/15/Doc.aspx?sourcedoc={ba4f0899-d0b9-4739-bbe0-77a1e80bdf54}&amp;action=embedview" 
+            src="https://onedrive.live.com/embed?cid=A19854BC35135660&amp;resid=A19854BC35135660%214001&amp;authkey=AGxjL1CyVzRM8os&amp;em=2" 
             frameborder="0">This is an embedded 
             <a target="_blank" href="https://office.com">Microsoft Office</a> document, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.
         </iframe>

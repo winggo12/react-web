@@ -6,7 +6,7 @@ export default function PersonalCV() {
         <div className="personal-cv">
         {/* <h1> Resume </h1> */}
         <iframe className="personal-cv-file"
-            src="https://connectpolyu-my.sharepoint.com/personal/20007633g_connect_polyu_hk/_layouts/15/Doc.aspx?sourcedoc={114bb542-1cc7-4077-b3cb-4a07bd81a513}&amp;action=embedview"
+            src="https://onedrive.live.com/embed?resid=A19854BC35135660%213998&amp;authkey=%21AL8GvUenzPiKaMI&amp;em=2"
             frameborder="0">This is an embedded 
             <a target="_blank" href="https://office.com">Microsoft Office</a> document, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.
         </iframe>

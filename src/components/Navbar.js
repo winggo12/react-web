@@ -29,7 +29,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+          <Link to="/react-web/" className='navbar-logo' onClick={closeMobileMenu}>
             Luis Chan <i className='fas fa-laptop-code' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>

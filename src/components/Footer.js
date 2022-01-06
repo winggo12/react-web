@@ -66,7 +66,7 @@ function Footer() {
             <section className="social-media">
                 <div className="social-media-wrap">
                     <div className="footer-logo">
-                        <Link to="/" className="social-logo">
+                        <Link to="/react-web/" className="social-logo">
                             Luis Chan  <i class="fas fa-laptop-code"></i>
                         </Link>
                     </div>
